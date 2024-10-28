@@ -74,7 +74,7 @@ st.markdown(
         border-radius: 15px;
         
     }
-    img[src="https://kbcm7rekxjqjpmpbe3yjde.streamlit.app:443/~/+/media/33fd7a949eea48174eef7209b4f9b6445c7e2cc5c694ea7a6f14b5e7.jpg"]{
+    img[src="https://carrercraftresumeanalyzerproject.streamlit.app:443/~/+/media/33fd7a949eea48174eef7209b4f9b6445c7e2cc5c694ea7a6f14b5e7.jpg"]{
         position:absolute;
         left:25px;
         top:40px;
@@ -84,7 +84,7 @@ st.markdown(
         position:absolute;
         left:-20px;
     }
-    img[src="https://kbcm7rekxjqjpmpbe3yjde.streamlit.app:443/~/+/media/c2d373f3e6c34e1aec9ad8b4e52d5cc229c52ca03f6b7c65cbe4b8d2.jpg"]{
+    img[src="https://carrercraftresumeanalyzerproject.streamlit.app:443/~/+/media/c2d373f3e6c34e1aec9ad8b4e52d5cc229c52ca03f6b7c65cbe4b8d2.jpg"]{
         position:absolute;
         right:-50px;
         width:100px;
@@ -282,7 +282,7 @@ with col2:
     import base64
 
 # Load video file and encode it to base64
-video_path = "AdvanceAnalysisAIVideo.mp4"
+video_path = "./Images/Advance Analysis AI Video.mp4"
 with open(video_path, "rb") as video_file:
     video_base64 = base64.b64encode(video_file.read()).decode("utf-8")
 
