@@ -295,7 +295,7 @@ video_html = f"""
     <p style="text-align:center;font-weight:900;margin-right:750px;font-size:1.5rem; ">Advance Analysis</p>
 """
 
-Display the video in Streamlit
+# Display the video in Streamlit
 st.components.v1.html(video_html, height=500)
 st.markdown("<h1 class='sub-header'>FAQs</h1>", unsafe_allow_html=True)
 st.markdown(""" 
