@@ -208,7 +208,7 @@ with col1:
                 </p>
                 """, unsafe_allow_html=True)
 with col2:
-     img1 = Image.open("//workspaces//Careercraft-ATS-Optimized-Resume-Analyzer-Using-Gemini-Model-Project-Generative-AI-//Images//Image1.jpg")
+     img1 = Image.open("/workspaces/Careercraft-ATS-Optimized-Resume-Analyzer-Using-Gemini-Model-Project-Generative-AI-/Images/Image1.jpg")
      st.image(img1, use_column_width=True)
 
 avs.add_vertical_space(10)
@@ -229,7 +229,7 @@ with col2:
                 </ul>
                 """, unsafe_allow_html=True)
 with col1:
-   img2 = Image.open("//workspaces//Careercraft-ATS-Optimized-Resume-Analyzer-Using-Gemini-Model-Project-Generative-AI-//Images//Image2.jpg")
+   img2 = Image.open("/workspaces/Careercraft-ATS-Optimized-Resume-Analyzer-Using-Gemini-Model-Project-Generative-AI-/Images/Image2.jpg")
    st.image(img2, use_column_width=True, caption="Optimize Your Resume")
 
 avs.add_vertical_space(10)
@@ -272,7 +272,7 @@ with col1:
         else:
             st.error("Please provide both the job description and upload your resume.")
 with col2:
-    img3 = Image.open("//workspaces//Careercraft-ATS-Optimized-Resume-Analyzer-Using-Gemini-Model-Project-Generative-AI-//Images//Image3.jpg")
+    img3 = Image.open("/workspaces/Careercraft-ATS-Optimized-Resume-Analyzer-Using-Gemini-Model-Project-Generative-AI-/Images/Image3.jpg")
     st.image(img3, use_column_width=True, caption="Career Guidance")
 
 avs.add_vertical_space(10)
@@ -282,7 +282,7 @@ with col2:
     import base64
 
 # Load video file and encode it to base64
-video_path = "//workspaces//Careercraft-ATS-Optimized-Resume-Analyzer-Using-Gemini-Model-Project-Generative-AI-//Images//AdvanceAnalysisAIVideo.mp4"
+video_path = "/workspaces/Careercraft-ATS-Optimized-Resume-Analyzer-Using-Gemini-Model-Project-Generative-AI-/Images/AdvanceAnalysisAIVideo.mp4"
 with open(video_path, "rb") as video_file:
     video_base64 = base64.b64encode(video_file.read()).decode("utf-8")
 
