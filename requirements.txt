@@ -1,0 +1,11 @@
+streamlit
+streamlit-extras
+add-vertical-space
+google-generativeai
+os
+PyPDF2
+dotenv
+load-dotenv
+PIL
+Image
+matplotlib.pyplot
