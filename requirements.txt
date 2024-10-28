@@ -1,6 +1,5 @@
 streamlit
 streamlit-extras
-add-vertical-space
 google-generativeai
 os
 PyPDF2
