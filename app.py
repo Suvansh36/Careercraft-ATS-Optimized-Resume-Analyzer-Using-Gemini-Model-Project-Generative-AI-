@@ -74,7 +74,7 @@ st.markdown(
         border-radius: 15px;
         
     }
-    img[src=""https://kbcm7rekxjqjpmpbe3yjde.streamlit.app:443/~/+/media/33fd7a949eea48174eef7209b4f9b6445c7e2cc5c694ea7a6f14b5e7.jpg"]{
+    img[src="https://kbcm7rekxjqjpmpbe3yjde.streamlit.app:443/~/+/media/33fd7a949eea48174eef7209b4f9b6445c7e2cc5c694ea7a6f14b5e7.jpg"]{
         position:absolute;
         left:25px;
         top:40px;
@@ -282,7 +282,7 @@ with col2:
     import base64
 
 # Load video file and encode it to base64
-video_path = "./Images/AdvanceAnalysisAIVideo.mp4"
+video_path = "./Images/Advance Analysis AI Video.mp4"
 with open(video_path, "rb") as video_file:
     video_base64 = base64.b64encode(video_file.read()).decode("utf-8")
 
