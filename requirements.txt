@@ -1,7 +1,6 @@
 streamlit
 streamlit-extras
 google-generativeai
-os
 PyPDF2
 dotenv
 load-dotenv
