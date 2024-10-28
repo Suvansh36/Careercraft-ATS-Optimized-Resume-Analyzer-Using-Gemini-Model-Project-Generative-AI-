@@ -297,7 +297,7 @@ with col2:
 # """
 
 #Display the video in Streamlit
-st.components.v1.html(video_html, height=500)
+# st.components.v1.html(video_html, height=500)
 st.markdown("<h1 class='sub-header'>FAQs</h1>", unsafe_allow_html=True)
 st.markdown(""" 
                 <div class="faq-container">
