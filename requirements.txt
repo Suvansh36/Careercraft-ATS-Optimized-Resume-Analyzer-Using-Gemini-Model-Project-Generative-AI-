@@ -1,9 +1,0 @@
-streamlit
-streamlit-extras
-google-generativeai
-PyPDF2
-dotenv
-load-dotenv
-PIL
-Image
-matplotlib.pyplot
