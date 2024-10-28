@@ -282,21 +282,21 @@ with col2:
     import base64
 
 # Load video file and encode it to base64
-# video_path = "./Images/Advance Analysis AI Video.mp4"
-# with open(video_path, "rb") as video_file:
-#     video_base64 = base64.b64encode(video_file.read()).decode("utf-8")
+video_path = "./Images/Advance Analysis AI Video.mp4"
+with open(video_path, "rb") as video_file:
+    video_base64 = base64.b64encode(video_file.read()).decode("utf-8")
 
-# # Embed the video in HTML without a playbar
-# video_html = f"""
-#     <video autoplay loop muted style="width: 40%; border-radius: 15px;">
-#         <source src="data:video/mp4;base64,{video_base64}" type="video/mp4">
-#         Your browser does not support the video tag.
-#     </video>
-#     <p style="text-align:center;font-weight:900;margin-right:750px;font-size:1.5rem; ">Advance Analysis</p>
-# """
+# Embed the video in HTML without a playbar
+video_html = f"""
+    <video autoplay loop muted style="width: 40%; border-radius: 15px;">
+        <source src="data:video/mp4;base64,{video_base64}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p style="text-align:center;font-weight:900;margin-right:750px;font-size:1.5rem; ">Advance Analysis</p>
+"""
 
-# Display the video in Streamlit
-# st.components.v1.html(video_html, height=500)
+#Display the video in Streamlit
+st.components.v1.html(video_html, height=500)
 st.markdown("<h1 class='sub-header'>FAQs</h1>", unsafe_allow_html=True)
 st.markdown(""" 
                 <div class="faq-container">
