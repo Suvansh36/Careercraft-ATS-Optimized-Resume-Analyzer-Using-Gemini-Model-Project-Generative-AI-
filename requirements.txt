@@ -1,0 +1,13 @@
+streamlit
+python-dotenv
+PyPDF2
+Pillow
+scikit-learn
+nltk
+gensim
+language-tool-python
+python-docx
+google-generativeai
+google-generativeai
+gensim
+sumy
