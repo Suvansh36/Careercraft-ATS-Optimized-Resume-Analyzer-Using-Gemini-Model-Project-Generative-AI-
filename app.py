@@ -74,7 +74,7 @@ st.markdown(
         border-radius: 15px;
         
     }
-    img[src="https://neglected-superstition-jjqq5pjppqwvcjgjp-8505.app.github.dev:443/media/33fd7a949eea48174eef7209b4f9b6445c7e2cc5c694ea7a6f14b5e7.jpg"]{
+    img[src="https://kbcm7rekxjqjpmpbe3yjde.streamlit.app:443/~/+/media/33fd7a949eea48174eef7209b4f9b6445c7e2cc5c694ea7a6f14b5e7.jpg"]{
         position:absolute;
         left:25px;
         top:40px;
