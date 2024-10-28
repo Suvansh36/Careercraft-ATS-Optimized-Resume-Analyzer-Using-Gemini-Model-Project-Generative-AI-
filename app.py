@@ -84,7 +84,7 @@ st.markdown(
         position:absolute;
         left:-20px;
     }
-    img[src="https://neglected-superstition-jjqq5pjppqwvcjgjp-8505.app.github.dev:443/media/c2d373f3e6c34e1aec9ad8b4e52d5cc229c52ca03f6b7c65cbe4b8d2.jpg"]{
+    img[src=" img2 = Image.open("./Images/Image2.jpg")]{
         position:absolute;
         right:-50px;
         width:100px;
@@ -272,7 +272,7 @@ with col1:
         else:
             st.error("Please provide both the job description and upload your resume.")
 with col2:
-    img3 = Image.open("./Images/Image3.jpg")
+     img2 = Image.open("./Images/Image2.jpg")
     st.image(img3, use_column_width=True, caption="Career Guidance")
 
 avs.add_vertical_space(10)
