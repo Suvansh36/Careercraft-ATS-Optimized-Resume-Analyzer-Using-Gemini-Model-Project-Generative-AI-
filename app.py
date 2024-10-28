@@ -84,7 +84,7 @@ st.markdown(
         position:absolute;
         left:-20px;
     }
-    img[src=" img2 = Image.open("./Images/Image2.jpg")]{
+    img[src="./Images/Image2.jpg")]{
         position:absolute;
         right:-50px;
         width:100px;
