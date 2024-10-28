@@ -271,11 +271,11 @@ with col1:
                     st.pyplot(fig)
         else:
             st.error("Please provide both the job description and upload your resume.")
-with col2:
-    img3 = Image.open("/Images/Image3.jpg")
-    st.image(img3, use_column_width=True, caption="Career Guidance")
+# with col2:
+#     img3 = Image.open("/Images/Image3.jpg")
+#     st.image(img3, use_column_width=True, caption="Career Guidance")
 
-avs.add_vertical_space(10)
+# avs.add_vertical_space(10)
 
 col1, col2 = st.columns([2, 3])
 with col2:
