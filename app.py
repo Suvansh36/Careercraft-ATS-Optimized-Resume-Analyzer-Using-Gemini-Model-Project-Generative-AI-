@@ -208,7 +208,7 @@ with col1:
                 </p>
                 """, unsafe_allow_html=True)
 with col2:
-     img1 = Image.open("/workspaces/Careercraft-ATS-Optimized-Resume-Analyzer-Using-Gemini-Model-Project-Generative-AI-/Images/Image1.jpg")
+     img1 = Image.open("//workspaces//Careercraft-ATS-Optimized-Resume-Analyzer-Using-Gemini-Model-Project-Generative-AI-//Images//Image1.jpg")
      st.image(img1, use_column_width=True)
 
 avs.add_vertical_space(10)
