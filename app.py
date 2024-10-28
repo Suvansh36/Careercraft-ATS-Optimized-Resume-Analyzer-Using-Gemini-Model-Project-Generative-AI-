@@ -272,7 +272,7 @@ with col1:
         else:
             st.error("Please provide both the job description and upload your resume.")
 with col2:
-    img3 = Image.open("./Images/Image3.jpg")
+    img3 = Image.open("/Images/Image3.jpg")
     st.image(img3, use_column_width=True, caption="Career Guidance")
 
 avs.add_vertical_space(10)
