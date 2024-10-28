@@ -282,7 +282,7 @@ with col2:
     import base64
 
 # Load video file and encode it to base64
-video_path = "./Images/Video.mp4"
+video_path = "AdvanceAnalysisAIVideo.mp4"
 with open(video_path, "rb") as video_file:
     video_base64 = base64.b64encode(video_file.read()).decode("utf-8")
 
