@@ -1,13 +1,7 @@
 streamlit
-python-dotenv
+streamlit_extras
+google-generativeai
 PyPDF2
+python-dotenv
 Pillow
-scikit-learn
-nltk
-gensim
-language-tool-python
-python-docx
-google-generativeai
-google-generativeai
-gensim
-sumy
+matplotlib
