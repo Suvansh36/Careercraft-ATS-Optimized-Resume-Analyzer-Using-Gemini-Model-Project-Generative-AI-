@@ -32,10 +32,6 @@ def input_pdf_text(uploaded_file):
     except Exception as e:
         st.error(f"Error reading PDF file: {e}")
         return None
-
-def add_vertical_space(num_lines: int = 1):
-    for _ in range(num_lines):
-        st.write("")
         
 # Function to create a doughnut chart
 def create_doughnut_chart(percentage):
