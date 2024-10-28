@@ -229,7 +229,7 @@ with col2:
                 </ul>
                 """, unsafe_allow_html=True)
 with col1:
-   img2 = Image.open("/workspaces/Careercraft-ATS-Optimized-Resume-Analyzer-Using-Gemini-Model-Project-Generative-AI-/Images/Image2.jpg")
+   img2 = Image.open("./Images/Image2.jpg")
    st.image(img2, use_column_width=True, caption="Optimize Your Resume")
 
 avs.add_vertical_space(10)
@@ -272,7 +272,7 @@ with col1:
         else:
             st.error("Please provide both the job description and upload your resume.")
 with col2:
-    img3 = Image.open("/workspaces/Careercraft-ATS-Optimized-Resume-Analyzer-Using-Gemini-Model-Project-Generative-AI-/Images/Image3.jpg")
+    img3 = Image.open("./Images/Image3.jpg")
     st.image(img3, use_column_width=True, caption="Career Guidance")
 
 avs.add_vertical_space(10)
