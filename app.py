@@ -1,5 +1,4 @@
 import streamlit as st
-import streamlit_extras 
 from streamlit_extras import add_vertical_space as avs
 import google.generativeai as genai
 import os
@@ -33,7 +32,7 @@ def input_pdf_text(uploaded_file):
     except Exception as e:
         st.error(f"Error reading PDF file: {e}")
         return None
-        
+
 # Function to create a doughnut chart
 def create_doughnut_chart(percentage):
     fig, ax = plt.subplots(figsize=(6, 6))
@@ -75,17 +74,17 @@ st.markdown(
         border-radius: 15px;
         
     }
-    img[src="http://localhost:8501/media/33fd7a949eea48174eef7209b4f9b6445c7e2cc5c694ea7a6f14b5e7.jpg"]{
+    img[src="https://neglected-superstition-jjqq5pjppqwvcjgjp-8504.app.github.dev:443/media/33fd7a949eea48174eef7209b4f9b6445c7e2cc5c694ea7a6f14b5e7.jpg"]{
         position:absolute;
         left:25px;
         top:40px;
         width:100px;
     }
-    img[src="http://localhost:8501/media/6f3b29928850f1ec10a1865331d52bca83c16c9fa4fdaca636251583.jpg" alt="0" style="width: 452.8px;"]{
+    img[style="width: 287.203px;"]{
         position:absolute;
         left:-20px;
     }
-    img[src="http://localhost:8501/media/c2d373f3e6c34e1aec9ad8b4e52d5cc229c52ca03f6b7c65cbe4b8d2.jpg"]{
+    img[src="https://neglected-superstition-jjqq5pjppqwvcjgjp-8504.app.github.dev:443/media/c2d373f3e6c34e1aec9ad8b4e52d5cc229c52ca03f6b7c65cbe4b8d2.jpg"]{
         position:absolute;
         right:-50px;
         width:100px;
@@ -157,7 +156,7 @@ st.markdown(
     .description {
         text-align: justify;
         font-weight: 300;
-        font-size: 1.2em;
+        font-size: 1.2rem;
     }
     .offerings {
         font-weight: 300;
@@ -209,7 +208,7 @@ with col1:
                 </p>
                 """, unsafe_allow_html=True)
 with col2:
-     img1 = Image.open("E:\Project\images\Image1.jpg")
+     img1 = Image.open("/workspaces/Careercraft-ATS-Optimized-Resume-Analyzer-Using-Gemini-Model-Project-Generative-AI-/Images/Image1.jpg")
      st.image(img1, use_column_width=True)
 
 avs.add_vertical_space(10)
@@ -230,7 +229,7 @@ with col2:
                 </ul>
                 """, unsafe_allow_html=True)
 with col1:
-   img2 = Image.open("E:\Project\images\Image2.jpg")
+   img2 = Image.open("/workspaces/Careercraft-ATS-Optimized-Resume-Analyzer-Using-Gemini-Model-Project-Generative-AI-/Images/Image2.jpg")
    st.image(img2, use_column_width=True, caption="Optimize Your Resume")
 
 avs.add_vertical_space(10)
@@ -273,17 +272,17 @@ with col1:
         else:
             st.error("Please provide both the job description and upload your resume.")
 with col2:
-    img3 = Image.open("E:\Project\images\Image3.jpg")
+    img3 = Image.open("/workspaces/Careercraft-ATS-Optimized-Resume-Analyzer-Using-Gemini-Model-Project-Generative-AI-/Images/Image3.jpg")
     st.image(img3, use_column_width=True, caption="Career Guidance")
 
 avs.add_vertical_space(10)
 
 col1, col2 = st.columns([2, 3])
 with col2:
- import base64
+    import base64
 
 # Load video file and encode it to base64
-video_path = "E:\Project\images\AdvanceAnalysisAIVideo.mp4"
+video_path = "/workspaces/Careercraft-ATS-Optimized-Resume-Analyzer-Using-Gemini-Model-Project-Generative-AI-/Images/AdvanceAnalysisAIVideo.mp4"
 with open(video_path, "rb") as video_file:
     video_base64 = base64.b64encode(video_file.read()).decode("utf-8")
 
@@ -293,7 +292,7 @@ video_html = f"""
         <source src="data:video/mp4;base64,{video_base64}" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-    <p style="text-align:center;font-weight:900;margin-right:815px;font-size:1.5rem; ">Advance Analysis</p>
+    <p style="text-align:center;font-weight:900;margin-right:750px;font-size:1.5rem; ">Advance Analysis</p>
 """
 
 # Display the video in Streamlit
@@ -314,9 +313,6 @@ st.markdown("""
                 </div>
                 """, unsafe_allow_html=True)
 
+
+
 avs.add_vertical_space(10)
-
-
-
-
-
